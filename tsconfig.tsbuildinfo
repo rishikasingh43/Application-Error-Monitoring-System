@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/Dashboard.tsx","./src/ErrorDetailModal.tsx","./src/ErrorTable.tsx","./src/LogFormModal.tsx","./src/Reports.tsx","./src/db.test.ts","./src/db.ts","./src/main.tsx","./src/types.ts","./src/utils.ts"],"version":"5.9.3"}

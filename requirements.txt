@@ -1,0 +1,18 @@
+# requirements.txt
+#
+# This project runs as a browser-based web app and uses an in-browser
+# PostgreSQL engine (PGlite, WebAssembly) instead of a Python server.
+# Node.js dependencies are declared in package.json and installed via:
+#     npm install
+#
+# The file below is provided for reference / parity with the original
+# Python/SQLite brief. If you choose to port the database layer to a
+# Python backend, these are the equivalent libraries:
+#
+# Flask web framework
+Flask==3.0.3
+# SQLite is part of the Python standard library (no pip install needed)
+# CORS support for local development
+flask-cors==4.0.1
+# Optional: testing
+pytest==8.3.3

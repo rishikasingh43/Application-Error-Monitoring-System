@@ -1,0 +1,37 @@
+
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Local environment files
+.env
+.env.*
+*.local
+
+# Bolt internal configuration
+.bolt/
+
+# Database files
+pgdata/
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache files
+.vite/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor files
+.vscode/
+.idea/
